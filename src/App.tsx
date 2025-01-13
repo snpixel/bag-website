@@ -239,17 +239,9 @@ function App() {
         <div className="relative max-w-3xl mx-auto text-center px-4 py-16">
           <h2 className="text-2xl md:text-3xl mb-8 tracking-wider text-white">{t.contact.title}</h2>
           <div className="flex flex-col md:flex-row justify-center items-center space-y-6 md:space-y-0 md:space-x-8">
-            <a href={`mailto:${t.contact.email}`} className="flex items-center space-x-2 text-white hover:text-gray-300 transition-colors text-sm">
-              <Mail size={16} />
-              <span>{t.contact.email}</span>
-            </a>
             <a href={`tel:${t.contact.phone}`} className="flex items-center space-x-2 text-white hover:text-gray-300 transition-colors text-sm">
               <Phone size={16} />
               <span>{t.contact.phone}</span>
-            </a>
-            <a href="https://instagram.com/artisanbags" target="_blank" rel="noopener noreferrer" className="flex items-center space-x-2 text-white hover:text-gray-300 transition-colors text-sm">
-              <Instagram size={16} />
-              <span>{t.contact.instagram}</span>
             </a>
           </div>
         </div>
