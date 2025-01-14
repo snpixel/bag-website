@@ -98,7 +98,7 @@ function App() {
                 animate={{ opacity: 1, x: 0 }}
                 className="text-2xl tracking-wider"
               >
-                Artisan Bags
+                Bags by Amit
               </motion.h1>
               
               <div className="flex items-center space-x-4 md:hidden">

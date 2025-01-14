@@ -7,8 +7,8 @@ export const translations = {
       pouches: 'Pouches'
     },
     hero: {
-      title: 'Handcrafted with Love',
-      description: 'Welcome to my world of artisanal bag crafting. Each piece is thoughtfully designed and meticulously handmade with premium materials, ensuring both beauty and durability. My passion for creating unique, functional pieces drives me to explore new designs while maintaining the highest standards of craftsmanship.'
+      title: 'Crafted with care, just for you.',
+      description: 'Who says you can’t carry style and stories at the same time? Our cotton bags are not just bags; they’re a canvas of creativity, hand-painted with love and a touch of humor. From side bags to backpacks, we’ve got your essentials covered – because why settle for boring when you can carry art?'
     },
     sections: {
       sideBags: 'Side Bags',
@@ -31,8 +31,8 @@ export const translations = {
       pouches: 'पाउच'
     },
     hero: {
-      title: 'प्रेम से हस्तनिर्मित',
-      description: 'मेरी कारीगर बैग निर्माण की दुनिया में आपका स्वागत है। प्रत्येक पीस को सावधानीपूर्वक डिज़ाइन किया गया है और उच्च गुणवत्ता वाली सामग्री से हाथों से बनाया गया है, जो सुंदरता और टिकाऊपन सुनिश्चित करता है। अनूठे, कार्यात्मक टुकड़े बनाने का मेरा जुनून मुझे उच्चतम कारीगरी के मानकों को बनाए रखते हुए नए डिज़ाइनों की खोज के लिए प्रेरित करता है।'
+      title: 'स्नेह से बने,आपके लिए।',
+      description: 'बोरिंग बैग्स से अच्छा है, कुछ खास लेकर चलो! हमारी सफेद कॉटन की बैग्स, हाथ से पेंट किए गए डिजाइन के साथ, आपके स्टाइल को बना दें खास। साइड बैग से लेकर बैकपैक तक, सब कुछ है, क्योंकि क्यों न स्टाइल और एंटरटेनमेंट दोनों को साथ लेकर चलें?'
     },
     sections: {
       sideBags: 'साइड बैग',
