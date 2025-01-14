@@ -44,7 +44,9 @@ function App() {
       ],
       backpacks: [
         { id: '1', imageUrl: './images/backpack_1.png', name: 'Backpack 1' },
-        { id: '2', imageUrl: './images/backpack_2.png', name: 'Backpack 2' }
+        { id: '2', imageUrl: './images/backpack_2.png', name: 'Backpack 2' },
+        { id: '3', imageUrl: './images/backpack_3.png', name: 'Backpack 3' },
+        { id: '4', imageUrl: './images/backpack_4.png', name: 'Backpack 4' }
       ],
       pouches: [
         { id: '1', imageUrl: './images/pouch_1.png', name: 'Pouch 1' }

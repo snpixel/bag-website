@@ -18,9 +18,9 @@ export const translations = {
     },
     contact: {
       title: 'Get in Touch',
-      email: 'contact@artisanbags.com',
-      phone: '+1 (234) 567-890',
-      instagram: '@artisanbags'
+      // email: 'contact@artisanbags.com',
+      phone: '+919993500600',
+      // instagram: '@artisanbags'
     }
   },
   hindi: {
@@ -42,9 +42,9 @@ export const translations = {
     },
     contact: {
       title: 'संपर्क करें',
-      email: 'contact@artisanbags.com',
-      phone: '+1 (234) 567-890',
-      instagram: '@artisanbags'
+      // email: 'contact@artisanbags.com',
+      phone: '+919993500600',
+      // instagram: '@artisanbags'
     }
   }
 };
