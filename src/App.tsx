@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
-import { Menu, X, Instagram, Mail, Phone } from 'lucide-react';
+import { Menu, X, Phone } from 'lucide-react';
 import ProductSection from './components/ProductSection';
 import { translations } from './translations';
 
@@ -32,25 +32,32 @@ function App() {
   useEffect(() => {
     const hardcodedImages: Products = {
       sideBags: [
-        { id: '1', imageUrl: './images/sidebag_1.png', name: 'Side Bag 1' },
-        { id: '2', imageUrl: './images/sidebag_2.png', name: 'Side Bag 2' },
-        { id: '3', imageUrl: './images/sidebag_3.png', name: 'Side Bag 3' }
+        { id: '1', imageUrl: './images/sidebag/sidebag_1.png', name: 'Side Bag 1' },
+        { id: '2', imageUrl: './images/sidebag/sidebag_2.png', name: 'Side Bag 2' },
+        { id: '3', imageUrl: './images/sidebag/sidebag_3.png', name: 'Side Bag 3' },
+        { id: '4', imageUrl: './images/sidebag/sidebag_4.png', name: 'Side Bag 4' },
+        { id: '5', imageUrl: './images/sidebag/sidebag_5.png', name: 'Side Bag 5' }
       ],
       handBags: [
-        { id: '1', imageUrl: './images/handbag_1.png', name: 'Hand Bag 1' },
-        { id: '2', imageUrl: './images/handbag_2.png', name: 'Hand Bag 2' },
-        { id: '3', imageUrl: './images/handbag_3.png', name: 'Hand Bag 3' },
-        { id: '4', imageUrl: './images/handbag_4.png', name: 'Hand Bag 4' }
+        { id: '1', imageUrl: './images/handbag/handbag_1.png', name: 'Hand Bag 1' },
+        { id: '2', imageUrl: './images/handbag/handbag_2.png', name: 'Hand Bag 2' },
+        { id: '3', imageUrl: './images/handbag/handbag_3.png', name: 'Hand Bag 3' },
+        { id: '4', imageUrl: './images/handbag/handbag_4.png', name: 'Hand Bag 4' },
+        { id: '5', imageUrl: './images/handbag/handbag_5.png', name: 'Hand Bag 5' },
+        { id: '6', imageUrl: './images/handbag/handbag_6.png', name: 'Hand Bag 6' }
       ],
       backpacks: [
-        { id: '1', imageUrl: './images/backpack_1.png', name: 'Backpack 1' },
-        { id: '2', imageUrl: './images/backpack_2.png', name: 'Backpack 2' },
-        { id: '3', imageUrl: './images/backpack_3.png', name: 'Backpack 3' },
-        { id: '4', imageUrl: './images/backpack_4.png', name: 'Backpack 4' }
+        { id: '1', imageUrl: './images/backpack/backpack_1.png', name: 'Backpack 1' },
+        { id: '2', imageUrl: './images/backpack/backpack_2.png', name: 'Backpack 2' },
+        { id: '3', imageUrl: './images/backpack/backpack_3.png', name: 'Backpack 3' },
+        { id: '4', imageUrl: './images/backpack/backpack_4.png', name: 'Backpack 4' },
+        { id: '5', imageUrl: './images/backpack/backpack_5.png', name: 'Backpack 5' },
+        { id: '6', imageUrl: './images/backpack/backpack_6.png', name: 'Backpack 6' },
+        { id: '7', imageUrl: './images/backpack/backpack_7.png', name: 'Backpack 7' }
       ],
       pouches: [
-        { id: '1', imageUrl: './images/pouch_1.png', name: 'Pouch 1' },
-        { id: '2', imageUrl: './images/pouch_2.png', name: 'Pouch 2' }
+        { id: '1', imageUrl: './images/pouches/pouch_1.png', name: 'Pouch 1' },
+        { id: '2', imageUrl: './images/pouches/pouch_2.png', name: 'Pouch 2' }
       ]
     };
 
