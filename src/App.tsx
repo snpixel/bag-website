@@ -36,7 +36,8 @@ function App() {
         { id: '2', imageUrl: './images/sidebag/sidebag_2.png', name: 'Side Bag 2' },
         { id: '3', imageUrl: './images/sidebag/sidebag_3.png', name: 'Side Bag 3' },
         { id: '4', imageUrl: './images/sidebag/sidebag_4.png', name: 'Side Bag 4' },
-        { id: '5', imageUrl: './images/sidebag/sidebag_5.png', name: 'Side Bag 5' }
+        { id: '5', imageUrl: './images/sidebag/sidebag_5.png', name: 'Side Bag 5' },
+        { id: '6', imageUrl: './images/sidebag/sidebag_6.png', name: 'Side Bag 6' }
       ],
       handBags: [
         { id: '1', imageUrl: './images/handbag/handbag_1.png', name: 'Hand Bag 1' },
@@ -53,7 +54,8 @@ function App() {
         { id: '4', imageUrl: './images/backpack/backpack_4.png', name: 'Backpack 4' },
         { id: '5', imageUrl: './images/backpack/backpack_5.png', name: 'Backpack 5' },
         { id: '6', imageUrl: './images/backpack/backpack_6.png', name: 'Backpack 6' },
-        { id: '7', imageUrl: './images/backpack/backpack_7.png', name: 'Backpack 7' }
+        { id: '7', imageUrl: './images/backpack/backpack_7.png', name: 'Backpack 7' },
+        { id: '8', imageUrl: './images/backpack/backpack_8.png', name: 'Backpack 8' }
       ],
       pouches: [
         { id: '1', imageUrl: './images/pouches/pouch_1.png', name: 'Pouch 1' },
