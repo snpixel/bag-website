@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
 import { Menu, X, Phone } from 'lucide-react';
 import ProductSection from './components/ProductSection';
@@ -8,6 +8,7 @@ interface Product {
   id: string;
   imageUrl: string;
   name: string;
+  price: string; // Added price field
 }
 
 interface Products {
@@ -32,34 +33,34 @@ function App() {
   useEffect(() => {
     const hardcodedImages: Products = {
       sideBags: [
-        { id: '1', imageUrl: './images/sidebag/sidebag_1.png', name: 'Side Bag 1' },
-        { id: '2', imageUrl: './images/sidebag/sidebag_2.png', name: 'Side Bag 2' },
-        { id: '3', imageUrl: './images/sidebag/sidebag_3.png', name: 'Side Bag 3' },
-        { id: '4', imageUrl: './images/sidebag/sidebag_4.png', name: 'Side Bag 4' },
-        { id: '5', imageUrl: './images/sidebag/sidebag_5.png', name: 'Side Bag 5' },
-        { id: '6', imageUrl: './images/sidebag/sidebag_6.png', name: 'Side Bag 6' }
+        { id: '1', imageUrl: './images/sidebag/sidebag_1.png', name: '', price: '₹150' },
+        { id: '2', imageUrl: './images/sidebag/sidebag_2.png', name: '', price: '₹180(per piece)' },
+        { id: '3', imageUrl: './images/sidebag/sidebag_3.png', name: '', price: '₹180' },
+        { id: '4', imageUrl: './images/sidebag/sidebag_4.png', name: '', price: '₹150' },
+        { id: '5', imageUrl: './images/sidebag/sidebag_5.png', name: '', price: '₹150' },
+        { id: '6', imageUrl: './images/sidebag/sidebag_6.png', name: '', price: '₹200' }
       ],
       handBags: [
-        { id: '1', imageUrl: './images/handbag/handbag_1.png', name: 'Hand Bag 1' },
-        { id: '2', imageUrl: './images/handbag/handbag_2.png', name: 'Hand Bag 2' },
-        { id: '3', imageUrl: './images/handbag/handbag_3.png', name: 'Hand Bag 3' },
-        { id: '4', imageUrl: './images/handbag/handbag_4.png', name: 'Hand Bag 4' },
-        { id: '5', imageUrl: './images/handbag/handbag_5.png', name: 'Hand Bag 5' },
-        { id: '6', imageUrl: './images/handbag/handbag_6.png', name: 'Hand Bag 6' }
+        { id: '1', imageUrl: './images/handbag/handbag_1.png', name: '', price: '₹350' },
+        { id: '2', imageUrl: './images/handbag/handbag_2.png', name: '', price: '₹350' },
+        { id: '3', imageUrl: './images/handbag/handbag_3.png', name: '', price: '₹350' },
+        { id: '4', imageUrl: './images/handbag/handbag_4.png', name: '', price: '₹150' },
+        { id: '5', imageUrl: './images/handbag/handbag_5.png', name: '', price: '₹150' },
+        { id: '6', imageUrl: './images/handbag/handbag_6.png', name: '', price: '₹300' }
       ],
       backpacks: [
-        { id: '1', imageUrl: './images/backpack/backpack_1.png', name: 'Backpack 1' },
-        { id: '2', imageUrl: './images/backpack/backpack_2.png', name: 'Backpack 2' },
-        { id: '3', imageUrl: './images/backpack/backpack_3.png', name: 'Backpack 3' },
-        { id: '4', imageUrl: './images/backpack/backpack_4.png', name: 'Backpack 4' },
-        { id: '5', imageUrl: './images/backpack/backpack_5.png', name: 'Backpack 5' },
-        { id: '6', imageUrl: './images/backpack/backpack_6.png', name: 'Backpack 6' },
-        { id: '7', imageUrl: './images/backpack/backpack_7.png', name: 'Backpack 7' },
-        { id: '8', imageUrl: './images/backpack/backpack_8.png', name: 'Backpack 8' }
+        { id: '1', imageUrl: './images/backpack/backpack_1.png', name: '', price: '₹350' },
+        { id: '2', imageUrl: './images/backpack/backpack_2.png', name: '', price: '₹400' },
+        { id: '3', imageUrl: './images/backpack/backpack_3.png', name: '', price: '₹200' },
+        { id: '4', imageUrl: './images/backpack/backpack_4.png', name: '', price: '₹250' },
+        { id: '5', imageUrl: './images/backpack/backpack_5.png', name: '', price: '₹200' },
+        { id: '6', imageUrl: './images/backpack/backpack_6.png', name: '', price: '₹250' },
+        { id: '7', imageUrl: './images/backpack/backpack_7.png', name: '', price: '₹200' },
+        { id: '8', imageUrl: './images/backpack/backpack_8.png', name: '', price: '₹200' }
       ],
       pouches: [
-        { id: '1', imageUrl: './images/pouches/pouch_1.png', name: 'Pouch 1' },
-        { id: '2', imageUrl: './images/pouches/pouch_2.png', name: 'Pouch 2' }
+        { id: '1', imageUrl: './images/pouches/pouch_1.png', name: '', price: '₹40' },
+        { id: '2', imageUrl: './images/pouches/pouch_2.png', name: '', price: '₹40' }
       ]
     };
 

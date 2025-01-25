@@ -6,6 +6,7 @@ interface Product {
   id: string;
   imageUrl: string;
   name: string;
+  price: string; // Added price field
 }
 
 interface ProductSectionProps {
@@ -63,6 +64,10 @@ export default function ProductSection({ title, products, id }: ProductSectionPr
                 alt={product.name}
                 className="object-cover w-full h-full transform transition-transform duration-300 hover:scale-110"
               />
+            </div>
+            <div className="p-4">
+              <h3 className="text-lg font-semibold">{product.name}</h3>
+              <p className="text-gray-500">{product.price}</p> {/* Moved price display below image */}
             </div>
           </motion.div>
         ))}
