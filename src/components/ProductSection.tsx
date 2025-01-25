@@ -67,7 +67,7 @@ export default function ProductSection({ title, products, id }: ProductSectionPr
             </div>
             <div className="p-4">
               <h3 className="text-lg font-semibold">{product.name}</h3>
-              <p className="text-gray-500">{product.price}</p> {/* Moved price display below image */}
+              <p className="text-black font-bold">{product.price}</p> {/* Moved price display below image */}
             </div>
           </motion.div>
         ))}
