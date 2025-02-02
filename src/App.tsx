@@ -46,7 +46,9 @@ function App() {
         { id: '3', imageUrl: './images/handbag/handbag_3.png', name: '', price: '₹350' },
         { id: '4', imageUrl: './images/handbag/handbag_4.png', name: '', price: '₹150' },
         { id: '5', imageUrl: './images/handbag/handbag_5.png', name: '', price: '₹150' },
-        { id: '6', imageUrl: './images/handbag/handbag_6.png', name: '', price: '₹300' }
+        { id: '6', imageUrl: './images/handbag/handbag_6.png', name: '', price: '₹300' },
+        { id: '7', imageUrl: './images/handbag/handbag_7.png', name: '', price: '₹500' },
+        { id: '7', imageUrl: './images/handbag/handbag_8.png', name: '', price: '₹200' }
       ],
       backpacks: [
         { id: '1', imageUrl: './images/backpack/backpack_1.png', name: '', price: '₹350' },
