@@ -48,7 +48,10 @@ function App() {
         { id: '5', imageUrl: './images/handbag/handbag_5.png', name: '', price: '₹150' },
         { id: '6', imageUrl: './images/handbag/handbag_6.png', name: '', price: '₹300' },
         { id: '7', imageUrl: './images/handbag/handbag_7.png', name: '', price: '₹500' },
-        { id: '7', imageUrl: './images/handbag/handbag_8.png', name: '', price: '₹200' }
+        { id: '8', imageUrl: './images/handbag/handbag_8.png', name: '', price: '₹200' },
+        { id: '9', imageUrl: './images/handbag/handbag_9.png', name: '', price: '₹300' },
+        { id: '10', imageUrl: './images/handbag/handbag_10.png', name: '', price: '₹175' },
+        { id: '11', imageUrl: './images/handbag/handbag_11.png', name: '', price: '₹175' }
       ],
       backpacks: [
         { id: '1', imageUrl: './images/backpack/backpack_1.png', name: '', price: '₹350' },
@@ -111,7 +114,7 @@ function App() {
                 animate={{ opacity: 1, x: 0 }}
                 className="text-2xl tracking-wider"
               >
-                Bags by Amit
+                Minimal Weave
               </motion.h1>
               
               <div className="flex items-center space-x-4 md:hidden">
