@@ -61,7 +61,8 @@ function App() {
         { id: '5', imageUrl: './images/backpack/backpack_5.png', name: '', price: '₹200' },
         { id: '6', imageUrl: './images/backpack/backpack_6.png', name: '', price: '₹250' },
         { id: '7', imageUrl: './images/backpack/backpack_7.png', name: '', price: '₹200' },
-        { id: '8', imageUrl: './images/backpack/backpack_8.png', name: '', price: '₹200' }
+        { id: '8', imageUrl: './images/backpack/backpack_8.png', name: '', price: '₹200' },
+        { id: '9', imageUrl: './images/backpack/backpack_9.png', name: '', price: '₹200' }
       ],
       pouches: [
         { id: '1', imageUrl: './images/pouches/pouch_1.png', name: '', price: '₹40' },
